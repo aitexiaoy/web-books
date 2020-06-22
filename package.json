@@ -1,0 +1,22 @@
+{
+  "name": "web-books",
+  "version": "0.1.0",
+  "description": "整理收集的web相关姿势体系，长期更新",
+  "main": "index.js",
+  "scripts": {
+    "start": "docsify serve ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aitexiaoy/web-books.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "docsify": "^4.9.1"
+  },
+  "bugs": {
+    "url": "https://github.com/aitexiaoy/web-books/issues"
+  },
+  "homepage": "https://github.com/aitexiaoy/web-books#readme"
+}
