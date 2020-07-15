@@ -1736,3 +1736,15 @@ new Vue({
 
 
 ### Vuex
+
+action中的第一个参数为一个对象，可以访问跟state
+```js
+{
+  commit: boundCommit(type, payload, options),
+  dispatch: boundDispatch(type, payload),
+  getters: {},
+  rootGetters: {},
+  rootState: {},
+  state: {},
+}
+```
