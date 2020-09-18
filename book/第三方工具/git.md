@@ -350,3 +350,22 @@ add text in second.txt
 ```
 
 修改后保存退出
+
+### 将文件存储到储藏区
+
+```
+git stash
+
+```
+[参考文档](https://www.yiibai.com/git/git_stash.html)
+
+### 如何找回git clean -f 的文件
+
+只要通过了git add 的文件git都会有相关记录，找到相应的id就能够找回文件
+
+```
+git reflog
+
+git merge [id]
+```
+[参考文档](https://www.cnblogs.com/hope-markup/p/6683522.html)
